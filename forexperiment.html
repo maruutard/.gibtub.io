@@ -14,13 +14,9 @@
         <div>
             <label for="first-name">First Name:</label>
             <input type="text" name="first-name" id="first-name" placeholder="John" required>
-        </div>
-
-        <div>
             <label for="last-name">Last Name:</label>
             <input type="text" name="last-name" id="last-name" placeholder="Smith" required>
         </div>
-
         <div>
             <label>Gender:</label>
             <label for="radio-choice-1">Male</label>
@@ -32,17 +28,14 @@
             <label for="radio-choice-3">Other</label>
             <input type="radio" name="gender" id="radio-choice-3" value="other">
         </div>
-
         <div>
             <label for="email">Email:</label>
             <input type="email" name="email" id="email" required placeholder="your email">
         </div>
-
         <div>
             <label for="password">Password:</label>
             <input type="password" name="password" id="password" pattern=".{5,10}" required title="5 to 10 characters" placeholder="your password">
         </div>
-
         <div>
             <label for="select-choice">Birthday:</label>
             <select name="birth-month" id="select-choice" required>
@@ -60,7 +53,6 @@
                 <option value="november">Nov</option>
                 <option value="december">Dec</option>
             </select>
-
             <select name="birth-day" id="day" required>
                 <option value="" disabled selected>Day</option>
                 <!-- Days 1-31 -->
@@ -70,7 +62,6 @@
                     }
                 </script>
             </select>
-
             <select name="birth-year" id="year" required>
                 <option value="" disabled selected>Year</option>
                 <!-- Years 1900-2024 -->
@@ -81,7 +72,6 @@
                 </script>
             </select>
         </div>
-
         <div>
             <label for="checkbox">I agree to the terms and conditions</label>
             <input type="checkbox" name="terms" id="checkbox" required>
@@ -91,7 +81,5 @@
             <input type="submit" value="Submit">
         </div>
     </form>
-
 </body>
-
 </html>
